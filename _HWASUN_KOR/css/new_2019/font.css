@@ -1,0 +1,81 @@
+@charset "utf-8";
+@font-face
+{font-family: "Lato";
+font-style: normal;
+font-weight: 400;
+src: url(/_HWASUN_KOR/font/Lato-Regular.woff2) format("woff2"),
+url(/_HWASUN_KOR/font/Lato-Regular.woff) format("woff"),
+url(/_HWASUN_KOR/font/Lato-Regular.ttf) format("opentype");
+}
+
+
+@font-face
+{font-family: "Lato";
+font-style: normal;
+font-weight: 500;
+src: url(/_HWASUN_KOR/font/Lato-Bold.woff2) format("woff2"),
+url(/_HWASUN_KOR/font/Lato-Bold.woff) format("woff"),
+url(/_HWASUN_KOR/font/Lato-Bold.ttf) format("opentype");
+}
+
+
+@font-face
+{
+font-family: "Noto Sans KR";
+font-style: normal;
+font-weight: 300;
+src: url(/_HWASUN_KOR/font/NotoSansKR-DemiLight.woff2) format("woff2"),
+url(/_HWASUN_KOR/font/NotoSansKR-DemiLight.woff) format("woff"),
+url(/_HWASUN_KOR/font/NotoSansKR-DemiLight.otf) format("opentype");
+}
+
+@font-face
+{
+font-family: "Noto Sans KR";
+font-style: normal;
+font-weight: 400;
+src: url(/_HWASUN_KOR/font/NotoSansKR-Regular.woff2) format("woff2"),
+url(/_HWASUN_KOR/font/NotoSansKR-Regular.woff) format("woff"),
+url(/_HWASUN_KOR/font/NotoSansKR-Regular.otf) format("opentype");
+}
+
+@font-face
+{
+font-family: "Noto Sans KR";
+font-style: normal;
+font-weight: 500;
+src: url(/_HWASUN_KOR/font/NotoSansKR-Medium.woff2) format("woff2"),
+url(/_HWASUN_KOR/font/NotoSansKR-Medium.woff) format("woff"),
+url(/_HWASUN_KOR/font/NotoSansKR-Medium.otf) format("opentype");
+}
+
+@font-face
+{
+font-family: "GmarketSans";
+font-style: normal;
+font-weight: 400;
+src: url(/_HWASUN_KOR/font/GmarketSansTTFLight.woff2) format("woff2"),
+url(/_HWASUN_KOR/font/GmarketSansTTFLight.woff) format("woff"),
+url(/_HWASUN_KOR/font/GmarketSansTTFLight.ttf) format("opentype");
+}
+
+@font-face
+{
+font-family: "GmarketSans";
+font-style: normal;
+font-weight: 500;
+src: url(/_HWASUN_KOR/font/GmarketSansTTFMedium.woff2) format("woff2"),
+url(/_HWASUN_KOR/font/GmarketSansTTFMedium.woff) format("woff"),
+url(/_HWASUN_KOR/font/GmarketSansTTFMedium.ttf) format("opentype");
+}
+
+@font-face
+{
+font-family: "GmarketSans";
+font-style: normal;
+font-weight: 600;
+src: url(/_HWASUN_KOR/font/GmarketSansTTFBold.woff2) format("woff2"),
+url(/_HWASUN_KOR/font/GmarketSansTTFBold.woff) format("woff"),
+url(/_HWASUN_KOR/font/GmarketSansTTFBold.ttf) format("opentype");
+}
+

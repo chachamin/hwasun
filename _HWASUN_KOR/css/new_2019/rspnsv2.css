@@ -1,0 +1,518 @@
+@charset "UTF-8";
+@media (max-width: 1860px){
+	.quick_l{left:0}
+	html {
+		-webkit-text-size-adjust: none;
+		-moz-text-size-adjust: none;
+		-ms-text-size-adjust: none;
+	}
+}
+
+@media (max-width: 1600px){
+	#header .t_unit{padding: 12px 20px 0}
+	#header .logobox{left:20px}
+	.sidebtn_box{padding-right:20px}
+	.quick_l .p_r{width:100px;padding-left:0}
+	.quick_l .p_r p{padding-right:10px}
+	.quick_l .p_r ul li a{padding:0;padding-top:50px}
+	.quick_l .p_r ul li:nth-child(10) a,	.quick_l .p_r ul li:nth-child(11) a{padding:50px 2px 6px;font-size:.82em}
+	.quick_l .p_r ul li a:before{position:absolute;top:0;left:50%;margin-left:-22px;transform:scale(.6)}
+
+	.quick_l .p_r ul li.first_link a:before{margin-left:-45px}
+}
+
+@media (max-width: 1500px){
+	#header .logobox .logo_deco,.quick_l{display:none}
+
+	.quick_box {display: none;}
+}
+
+@media (max-width: 1400px){
+	.sidebtn_box{padding-right:0px;}
+	#gnb > ul > .depth1 > a{padding:30px 10px}
+	#header .t_unit{padding:12px 20px 0;}	
+	.quick_r_wrap{display:none}
+}
+
+@media (max-width: 1280px){
+	body{font-size:14px}
+	.inner{width:100%;}	
+	#gnb > ul > .depth1 > a{font-size:1.3em;}
+
+	/*메인*/
+	#section02 .sec02_n .info_ban_wrap,#section01 .sec01_t .mainVisual_wrap,
+	#section01 .sec01_b .tabcont_video,#section01 .sec01_b > .tabcont_news{margin-right:15px;}
+	.info_ban_wrap img {height:360px;width:100%;}
+	.visual_08 img{width:auto}
+
+	.weather {padding-right:20px;}
+
+	#section01 .ga_cont .ga_pic img {object-fit: cover;}
+	#section02 .quick_wrap {padding:40px 20px;}
+
+}
+
+@media (max-width: 1204px){
+	#gnb,.sidebtn_box a.btn_allmn{display:none}
+	#header #mMenu{display:block}
+	#header .logobox .logo_deco{display:inline-block}
+	.sidebtn_box{padding-right:80px;}
+	.lnb-box{display:none}
+	/*서브*/
+	.sub-content{width:100%;padding:20px;float:none}
+
+	/*메인*/
+	#section01,#section03,#section04{padding-right:10px;padding-left:10px;}
+	#section02 .sec02_n .info_ban_wrap,#section01 .sec01_t .mainVisual_wrap,
+	#section01 .sec01_b .tabcont_video,#section01 .sec01_b > .tabcont_news{margin-right:14px}
+	#section01 .sec01_b > div{height:320px;width:23.4%}
+	#section01 .mainVisual_wrap {width: 780px !important;height: 364px !important;}
+	.mainVisual_wrap img{width: 100%;}
+	#section01 .mayor_top {height: 364px;}
+	#section01 .mayor_top .img_box {padding:35px 20px;overflow:hidden;background-size: 60%;}
+	#section01 .mayor_top .img_box img{width:118px}
+	#section01 .mayor_top .img_box {height: 314px;}
+	#section01 .mayor_top .img_box .text_s {top:60px;}
+	
+	#section02 .sec02_n {padding: 0 10px;}
+	#section02 .sec02_n .infoBanner .item {width: 270px !important; margin-right: 20px;}
+	#section03 .sns_box_new .title_box{padding:26px 40px 0;}
+	#section03 .sns_box_new .sns_link{right:40px;}
+	#section03 .sns_box_new .sns_slide_wrap{padding:30px 35px;}
+}
+
+@media (max-width: 1024px){
+	#section01 {padding-top:30px;}
+	#section01 .t_deco .mt_search_wrap {width:300px;}
+	#section01 .t_deco .mt_search_wrap .qr_box .fl {width: 260px;height:32px;border: none;}
+	#section01 .t_deco .mt_search_wrap {left: 400px;}
+	#section01 .mainVisual_wrap {width: 700px !important;height: 325px !important;}
+	.mainVisual_wrap img{width: 100%;}
+	#section01 .sec01_t .mayor_w {width: 280px;height:325px;}
+	#section01 .sec01_t .mayor_top {width: 100%;height: 274px;float:left;background-size:cover;}
+	#section01 .mayor_top .img_box{min-height:274px;padding:30px;background-size: 50%;height:240px;}
+	#section01 .mayor_top ul li {height:50px;line-height: 50px;}
+	#section01 .mayor_top .img_box {padding:35px 20px;overflow:hidden;background-size: 60%;}
+	#section01 .mayor_top .img_box .text_s {top:60px;}
+	#section01 .mayor_top .img_box .site_mayor {bottom: 70px;}
+
+	#section02 .sec02_n .infoBanner .item {width: 240px !important;}
+}
+
+@media (max-width: 1000px){
+	/*.t_unit .fl {display:none}*/
+	.t_unit .fl li{display:none}
+	.t_unit .fl li.last_add{display:block;}
+	#header .logobox{top:44px}
+	.searchTop_wrap .serch_form{width:100%;font-size:1em}
+	.searchTop_wrap{padding:30px}	
+	.searchTop_wrap input[type="text"]{width:54%}
+	.searchTop_wrap input[type="image"]{width:40px}
+	.searchTop_wrap .recomend ul li{width:33.3%;margin-top:10px}
+
+	.searchTab_wrap .ntabs li a.srch_tablink{height:50px}
+	.searchTab_wrap .person li,.searchTab_wrap .town li{width:23%;margin:1%}
+	.searchTab_wrap .town{margin-right:0}
+	.searchTab_wrap .town:before,#section02 .sec02_b .title:after{display:none}
+
+	/*메인*/
+
+	#section01 .t_deco .slogan {top:-12px;background-size: 80%;background-position: left;}
+	#section01 .t_deco .mt_search_wrap {left: 328px;}
+	#section01 .sec01_t .mainVisual_wrap{width:64% !important; margin-right:15px;height: 290px!important;}
+	#section01 .sec01_t .mayor_w{width:calc(100% - 64% - 15px);height:290px;}
+	#section01 .sec01_t .mayor_top {width: 100%;height: 240px;float:left;background-position: left bottom;}
+	#section01 .mayor_top .img_box{min-height:auto;padding:30px;background-size: 50%;height:240px;}
+	#section01 .mayor_top ul li {height:50px;line-height: 50px;}
+	#section01 .mayor_b_link{float:left;width:50%;}
+	#section01 .mayor_b_link li{height:67px;line-height:2.8em;font-size:1.25em}
+	#section01 .mayor_top .img_box .site_mayor {bottom: 40px;}
+	#section01 .sec01_b > .tabcont_news{width:100%}
+	#section01 .sec01_b > div{width:49%}
+
+	#section02 .sec02_n .info_ban_wrap{width:100%;height:436px;}
+	#section02 .sec02_n > div {padding:0 10px;}
+	#section02 .sec02_n .info_ban_wrap .infoBanner .item {width: 300px !important;height: 360px !important;}
+	#section01 .tabcont_video > ul > li{width:44.5%}
+	#section03 .banner_img_box{width:100%;height:auto;margin-bottom:20px}
+	#section03 .ban_list03 li{width:25%;}
+	#section03 .sns_box{width:100%;}
+	#section03 .sns_box_new{width:100%;height:auto;}
+	#section03 .sns_box_new .sns_slide_wrap{padding-bottom:40px;}
+
+	#section03 .ban_list01 li {width: 25%;}
+	#section03 .banner_img_box .title_box_new {padding-left: 40px;padding-right: 40px;}
+	#section03 .banner_img_box .title_box_new::after {right: 0;left: 270px;}
+	#section03 .ban_list01 {padding:30px 35px 40px;}
+	#section03 .sns_box .cont_box{padding:30px;}
+
+
+	#section04 .user_link > ul > li{width:25%;}
+	.allmenu{display:none}
+
+	/*서브*/
+
+	#depth4_menu_ul li a{word-break:break-all}
+	.btn-SZ25{width:50%}
+	.btn-SZ50{width:90%}
+	#depth4_menu_ul li a{padding:0 12px}
+	.moviePlayer{width:100%;padding:30px}
+	.moviePlayer video{width:100%}
+	.budget_waste .ulfl li a{font-size:1em}
+	.voteForm_new{padding:50px 20px}
+
+	/*선거인명부조회*/
+	.question_vote .ulfl {padding: 0 10px;}
+
+}
+
+@media (max-width: 768px){
+	#section01 {padding-top: 75px;}
+	#section01 .t_deco {padding: 0px 0 28px;}
+	#section01 .t_deco .slogan {top: -42px;background-size: 100%;}
+	#section01 .t_deco .weather {position: absolute;top: -62px;right: 10px;padding-right: 0;}
+	#section01 .t_deco .mt_search_wrap {top: -20px;left: 443px;}
+
+	#section01 .sec01_t .mainVisual_wrap {width: 100% !important;height:349px !important;}
+	#section01 .sec01_t .mayor_w { width: 100%;margin-top: 20px;height: 200px;}
+	#section01 .sec01_t .mayor_top {width: 100%;height: 100%;position: relative}
+	#section01 .sec01_t .mayor_top .img_box {width:100%;background: url('/_HWASUN_KOR/img/new_2022/mayor_m_ver.png') no-repeat 280px top;}
+	#section01 .sec01_t .mayor_top .text_img {width: 40%;padding-left: 40px;top:8%;}
+	#section01 .sec01_t .mayor_top .text_img img {width: 60%;}
+	#section01 .sec01_t .mayor_top .ulfl {position: absolute;width: 180px; top: 0;right: 0;}
+	#section01 .sec01_t .mayor_top .ulfl li {float: none;width: 100%;height:100px;line-height: 100px;}
+	#section01 .mayor_top .img_box .site_mayor {bottom: 45px;left: 50px;}
+
+	#section02 .sec02_n .info_ban_wrap .infoBanner .item {width: 235px !important;height: 350px !important;}
+
+	#section04 .user_link ul li {width: 50%;}
+
+	/*선거인명부조회*/
+	.question_vote .ulfl {padding: 0 10px;}
+}
+
+
+@media (max-width: 600px){
+	/*#header .t_unit > ul.fr > li.fr_03 a,#header .t_unit > ul.fr > li.fr_04 a{display:none}*/
+	#header .t_unit > ul.fr > li.fr_01 a,#header .t_unit > ul.fr > li.fr_04 a{display:none}
+	#header .logobox .logo_deco{width:70px;background-size:460px;background-position:-98px 8px}
+	#menu_admin ul li{float:none;margin-bottom:4px}
+	#menu_admin{margin-top:30px}
+	#section03 .sns_box .title_box div{width:50%;font-size:.9em}
+	#satisfy_wrap .satisfyForm{padding:14px}
+	#satisfy_wrap .satisfyTitle .opinion_right{position:inherit;text-align:right;border-bottom:1px solid #eee;padding-bottom:10px;margin-bottom:10px}
+	#satisfy_wrap .opinion .opinion_option{font-size:0.7em}
+	#satisfy_wrap .opinion a.nbtn{line-height:1em;padding:1.5rem .5rem;word-break:break-all}
+	#section01 .mayor_top,#section01 .mayor_b_link{float:none;width:100%;}
+	#section01 .sec01_t > div{margin-top:10px;width:100% !important;height:auto;}	
+	#section01 .sec01_t .mayor_w{height:auto}
+	#section01 .mayor_b_link li{height:auto;line-height:1em;font-size:1em}
+	#section01 .mayor_top .img_box .site_mayor {bottom: 50px;}
+	
+	#section03 .sns_box_new .title_box{padding:26px 20px 20px;height:auto;text-align:center;}
+	#section03 .sns_box_new .sns_link{position:relative;top:0;right:0;margin-top:26px;}
+	#section03 .sns_box_new .sns_link > div{width:48%;margin:1%;}
+	#section03 .sns_box_new .sns_link .ulfl{display:inline-block;}
+	#section03 .sns_box_new .sns_slide_wrap{padding:30px 25px;}
+	#section03 .sns_box_new .sns_slide .item .img_box{height:180px;}
+	#section03 .sns_box_new .sns_slide .item .text_box{padding:20px 20px 16px;}
+	#section03 .sns_box_new .sns_slide .item .text_box .subject{font-size:.9em;margin-top:10px;height:2.4em;}
+	#section03 .sns_box_new .sns_slide .slick-dots{bottom:-36px;right:calc(50% - 14px);}
+	#section03 .sns_box_new .sns_slide_wrap .slick-dots button{width:14px;height:14px;}
+	#section03 .sns_box_new .sns_slide_wrap .slick-nav{margin-left:118px;top:15px}
+
+	#footer .footSitewrap ul li{width:50%}
+	#footer .f_icolist{position:inherit;margin:30px auto 0}
+	.t_unit .fl li.last_add{display:block;}
+
+	#section01 .sec01_t .mainVisual_wrap {height:270px !important;}
+	#section01 .sec01_t .mayor_w { width: 100%;margin-top: 20px;height: 200px;}
+	#section01 .sec01_t .mayor_top {width: 100%;height: 100%;position: relative}
+	#section01 .sec01_t .mayor_top .img_box {background-position: 115px top;}
+	#section01 .sec01_t .mayor_top .text_img {width: 40%;padding-left: 40px;padding-top: 20px;}
+	#section01 .sec01_t .mayor_top .text_img img {width: 60%;}
+	#section01 .sec01_t .mayor_top .ulfl {position: absolute;width: 180px; top: 0;right: 0;}
+	#section01 .sec01_t .mayor_top .ulfl li {float: none;width: 100%;height:100px;line-height: 100px;}
+
+	#section01 .sec01_b .tabcont_video {margin-right: 11px;}
+
+	#section02 .quick_wrap::after {display: none;}
+
+	#section02 .sec02_n .info_ban_wrap .infoBanner .item {width: 265px !important;height: 350px !important;}
+
+	/*서브*/
+	.scl_x {width: 100%;overflow-x:scroll;margin-bottom:30px}  
+	.scl_x table {width:680px;}
+	.scl_x .notice{display:block;} 
+	
+	#depth4_menu_ul li{width:24.5%}
+	.sub_container{padding-bottom:40px}
+	.sub-content{padding:20px 10px}
+	.sub-content .sub_title{padding-top:30px;}
+	.sub-content .sub_title .control{top:18px}
+	.sub-content .sub_title .scont_title{font-size:1.7em;line-height:1.7rem;margin-right:94px}
+	.btn-SZ40{width:80%}
+	.card_hidden_ga{right:0;top:60px}
+	.joj-box{font-size:.9em}
+	.joj-box p{padding:10px 2px}
+	.joj-sbox .cont1{word-break:break-all;width:90%}
+	.joj-sbox ul,.joj-sbox .jojulbox{width:90%}
+	.joj-sbox ul li{padding-left:14px;background-position:4px 10px}
+	.youth_charter ul li,.youth_rights ul li.L,.youth_rights ul li.R{width:100%}
+	.ebook_list li{width:48%}
+	.budget_waste .ulfl li{width:49%;margin-bottom:1%}
+	.active_admin .bg_box{background-image:none !important}
+	.active_admin .bg_box .w50p{width:100% !important}
+	.aa_step.aa_step1{margin-left:0}
+	.active_admin .aa_step > li{padding-left:100px}
+	.active_admin .aa_step > li .ltitle,.active_admin .aa_step > li .big_t{font-size:1rem;line-height:1.4em;margin-bottom:10px}
+	.question_vote ul{display:block;width:100%;text-align:left}
+	.question_vote ul li{width:100%;margin-top:2px}
+	.question_vote ul li span{padding:0 10px;}
+	.tab_dep4_new li{width:33.3%;height:50px;}
+	.tab_dep4_new li.a1101 a, .tab_dep4_new li.a2001 a{padding:0 5px}
+	.tab_dep4_new li.a2001 a{height:48px}
+	.btn_020401{margin-top:10px;float:none !important;position:inherit !important;width: 46% !important;display: inline-block;top: inherit !important;right: inherit !important;}
+	.video518 .bo_box{padding:30px;margin-bottom:30px}
+	.video518 .bg_box img{position:relative;display:block;right:inherit;top:inherit;width:80%;margin:20px auto 0}
+	.video518 .video_player video{width:96%;height:100%}
+	.kids_safefood .bg_l_gray{padding:20px}
+	.moive_youtube{height:300px !important}
+	.searchForm ul li{width:100%;}
+	.searchForm ul li.R{margin-top:10px;float:left;}
+
+
+}
+
+@media (max-width: 480px){
+	/*레이아웃*/	
+	.sidebtn_box a.btn_promo_vd{display:none}
+	#mGnb .pormovd_mo{display:block}
+	#mGnb .mDepth1 > li,#mGnb:before{width:34%;}	
+	#mGnb .mDepth1 > li > a{font-size:1.05em}
+	#mGnb .mDepth2{width:63%;margin-left:36%;}	
+
+	#footer .footSitewrap ul li{width:100%}
+	#footer .copyright .inner{padding:0 30px 30px;text-align:center}
+	#footer .copyright .inner:before{position:inherit;margin:0px auto 20px}
+
+	/*메인*/
+	.searchTab_wrap .ntabs li a.srch_tablink{padding:0 30px}
+	#section01 {padding-top:140px;}
+	#section01 .t_deco{padding-bottom:0px}
+	#section01 .t_deco .slogan{top:-140px;width:100%;height:80px;background-size:100%}
+	#section01 .t_deco .weather {top: -50px;}
+	#section01 .t_deco .weather .weather_text{width:66px;background-size:500px;background-position:-211px 3px}
+	#section01 .t_deco .mt_search_wrap {top: -52px;left: 1px; width: 210px;}
+	#section01 .t_deco .mt_search_wrap .qr_box .fl {width: 168px;height:32px;border: none;}
+	#section01 .sec01_t .mainVisual_wrap {height: 214px !important;}
+
+	#section01 .sec01_t .mayor_w {height: 245px;margin-bottom: 10px;}
+	#section01 .sec01_t .mayor_top .img_box {background-position: 190px 5px;}
+	#section01 .sec01_t .mayor_top .img_box img {width: 100%;}
+	#section01 .sec01_t .mayor_top .ulfl {position: relative;width: 100%;top:-35px;}
+	#section01 .sec01_t .mayor_top .ulfl li {float: left;width: 50%;height: 40px;line-height: 40px;}
+	#section01 .sec01_b .tabcont_video {margin: 15px 0 10px;}
+	#section01 .sec01_t .mayor_top .text_img {width: 42%;padding-top: 0;}
+	#section01 .mayor_top .img_box .site_mayor {left: 55px;bottom: 40px;}
+
+	#section02 .sec02_n .infoBanner{border-radius:10px;}
+	#section02 .sec02_n .info_ban_wrap .infoBanner .item {width: 210px !important;height: auto !important;}
+	#section02 .sec02_n .infoBanner img{height:auto !important;object-fit: cover;}
+	.info_ban_wrap .counter{display:none;}
+
+	#section01 .mainVisual_wrap img{height:auto;}		
+	#section01 .tabcont_news .tabCont{min-width:70%}
+	#section01 .tabcont_news > ul > li .tablink.active:after,#section01 .tabcont_news > ul > li .tablink{width:90px;}
+	#section01 .tabCont{left:90px;padding:50px 20px}		
+	#section01 .sec01_b > div{width:100%;margin-top:10px;}
+	#section01 .ga_cont .ga_subject{height:24px;}
+	#section01 .ga_cont .ga_pic,#section01 .ga_cont .ga_pic img{height:190px;}
+	#section03{padding:40px 10px 100px}
+	#section03 .ban_list03 li{width:50%;}
+	#section03 .sns_box .title_box{padding:20px 20px 0 20px}
+	#section03 .sns_box .title_box span{display:block;margin-bottom:10px}
+	#section03 .sns_box .sns_tab{padding-right:10px}
+	#section03 .sns_box .sns_tab > li > a.tablink{margin-left:2px}
+	#section03 .sns_box .tabCont{padding:30px 20px;}
+	#section03 .sns_box .tabCont li{float:none;width:100%;}
+	#section03 .sns_box .tabCont li .img_box,#section02 .sns_box .tabCont li .text_box{width:50%;height:150px;float:left}
+	#section03 .sns_box .tabCont li .img_box .tag{font-size:1em}
+	#section03 .sns_box .tabCont li .text_box{padding:20px 16px}
+	#section03 .sns_box .tabCont li .text_box .subject{font-size:.95em;height:5em;line-height:1.25em}
+	#section03 .sns_box_new .sns_link li{width:23%;margin:0 1%;}
+	#section03 .sns_box_new .sns_link .sns_link_box1 li {width: 30%;}
+	#section03 .sns_box_new .sns_slide .item .img_box{height:150px;}
+
+	#section03 .sec03_t .banner_img_box ul li {width: 50%;}
+
+	#section04 .user_link > ul > li{width:100%;height:auto;background:#fff}
+	#section02 .sec02_b{height:auto;padding:30px 20px;position:relative;}
+	#section02 .sec02_b .quick_slide{margin-top:30px;padding-left:0;height:100px}
+	#section02 .sec02_b .title{font-size:1.3em;top:25px}
+	.sec02_b .slick-nav{left:unset;bottom:unset;right:20px;top:20px;}
+	#section04 .user_link > ul > li .user_tit{padding:14px;font-size:1.1em}
+	#section04 .user_link > ul > li > ul{padding:10px}
+	#section04 .user_link > ul > li > ul > li{width:50%;float:left}
+	#section03 .sns_box .tabCont li:after,#section03 .user_link > ul > li > ul:after {content:"";width:100%;display:block;visibility:hidden;clear:both;}
+
+	#section02 .sec02_n .info_ban_wrap {height: 315px;}
+
+	/*sub*/
+	#depth4_menu_ul li{width:33%}
+	.login_form_new .login_wrap,.logout_form{padding:60px 20px}
+	.login_form_new .login_wrap .login_w_box,.logout_form .logout_box{width:100%;padding:30px 20px}
+	.board-topbox .chjborderdiv1{width:20%}
+	.board-topbox .chjborderdiv2{width:70%;margin:0;padding:0 10px}
+	.title-img01,.title-img02,.title-img03,.title-img04,.title-img05,.title-img06,.title-img07,.title-img08,.title-img09,.subimg10,.subimg11{background:none}
+	.sub-title-box p,.solo01,.solo02,.solo05{width:100%}
+	.hj-box1{height:90px;}
+	.hj-box1 li:first-child{height:90px;}
+	.hj-box .hjcont02{font-size:0.95em}
+	.hs-sjR,.hs-sj{width:100%}
+	.btn-SZ15{width:50%}
+	.budget_waste .ulfl li{width:100%;}
+	.budget_waste .info_box{padding:30px;text-align:center}
+	.budget_waste .info_box .img {position:inherit;left:inherit;top:inherit;margin-bottom:20px}
+	.budget_waste .info_box .img img{width:160px}
+	.joj-sbox .cont1{height:62px}
+	.active_admin .bg_box > img{position:inherit}
+
+	/*게시판*/
+	.searchForm select{min-width:90px}
+	.gallery2 ul > li{width:48%}
+	.gallery ul > li{padding:20px;border:1px solid #eee;margin-bottom:10px}
+	.gallery ul > li dl dt{float:none;width:100%}
+	.gallery ul > li dl dd{float:none;width:100%;margin-top:10px;margin-left:0}
+	.card_news .owl-nav a{top:200px}
+	.bo_l_card ul > li > a > p.img_w{height:200px}
+	.voteForm_new{padding:40px 10px}
+	.question_vote,.voteForm_new .boardR{padding:20px 10px}
+	.boardR video{width:100%}
+
+}
+
+@media (max-width: 425px){
+	#section01 {padding-top: 150px;}
+	#section01 .t_deco .slogan {top: -113px;}
+	#section01 .t_deco .weather {top: -140px;}
+	#section01 .t_deco .mt_search_wrap {width:100%;top:-40px;}
+	#section01 .t_deco .mt_search_wrap .qr_box .fl {width: 360px;height:32px;border: none;}
+	#section01 .t_deco .mt_search_wrap {left: 2px;}
+
+	#section01 .sec01_t .mainVisual_wrap {height: 189px !important;}
+	#section01 .sec01_t .mayor_top .img_box {background-position: 150px 5px;}
+	#section01 .sec01_t .mayor_top .text_img {width: 40%;padding-left: 20px;}
+	#section01 .mayor_top .img_box .site_mayor {left: 40px;bottom: 50px;}
+
+
+	#section02 .sec02_n .info_ban_wrap {height: 278px;}
+	#section02 .sec02_n .info_ban_wrap .infoBanner .item {width: 95% !important;height: auto !important;}
+}
+
+@media (max-width: 384px){
+	#header .logobox .logo_deco{display:none}
+	#header .logobox{left:10px}
+	#header .t_unit{padding:10px 5px 0}
+	
+	#menu_admin	{padding:10px}
+	#section01 .t_deco .slogan{top:-115px}
+	#section02 .info_ban_wrap, #section02 .sec02_n .infoBanner{height:210px}
+	.searchTab_wrap .ntabs	{width:100%}
+	.searchTab_wrap .ntabs li a{padding:0}
+	.searchTab_wrap .person li, .searchTab_wrap .town li{width:31%;margin:1%}
+	#depth4_menu_ul li{width:48%}
+
+	#section01 .t_deco .mt_search_wrap {top: -42px;left: 1px; width: 360px;}
+	#section01 .t_deco .mt_search_wrap .qr_box .fl {width: 320px;height:32px;border: none;}
+	#section01 .sec01_t .mainVisual_wrap {height: 169px !important;}
+
+	#section02 .sec02_n .info_ban_wrap .infoBanner .item {width: 167px !important;}
+
+	#section03 .sns_box_new .sns_link .sns_link_box1 li {width: 27%;}
+
+
+	/*게시판*/
+	.card_news .owl-nav a{top:180px}
+	.bo_l_card ul > li > a > p.img_w{height:180px}
+}
+
+@media (max-width: 375px){
+	#section01 .t_deco .slogan {top: -113px;}
+	#section01 .t_deco .weather {top: -140px;}
+	#section01 .t_deco .mt_search_wrap {width:100%;top:-40px;}
+	#section01 .t_deco .mt_search_wrap .qr_box .fl {width: 310px;height:32px;border: none;}
+
+	#section01 .sec01_t .mainVisual_wrap {height: 165px !important;}
+
+	#section01 .sec01_t .mayor_w {height: 174px;}
+	#section01 .sec01_t .mayor_top .text_img {width: 33%;}
+	#section01 .sec01_t .mayor_top .img_box {height: 170px;background-position: 160px 10px;background-size: 62%;padding-left: 40px;}
+	#section01 .mayor_top .img_box .site_mayor {left: 40px;bottom: 40px;padding:5px 10px}
+
+	#section02 .sec02_n .info_ban_wrap {height: 450px;}
+
+	#section02 .sec02_n .info_ban_wrap .infoBanner .item {width: 329px !important;}
+
+	#section03 .sns_box_new .sns_link .sns_link_box1 li {width: 26%;}
+
+
+	#footer .copyright .fb_cont .ulfl li a {padding-right: 14px;}
+	#footer .copyright .f_icolist.ulfl li {width: 25%;text-align: center;margin-bottom: 20px;}
+}
+
+
+
+@media (max-width: 320px){
+	body{font-size:13px}
+	#header .t_unit .last_add1 img:last-child{display:none}
+	#mGnb .mgnb_link .fl > li > a{padding:4px 3px}
+	#section01 .info_ban_wrap, #section01 .sec01_t .infoBanner{height:170px}
+	.btn-SZ40{width:100%}
+	#section01 .tabcont_news > ul > li .tablink.active:after, #section01 .tabcont_news > ul > li .tablink{width:80px}
+	#section01 .tabCont{left:80px;padding:50px 14px}
+	#section01 .tabcont_news .tabCont .first .bo_t_cont{padding-left:60px}
+	#section01 .tabcont_news .tabCont .first .date{padding:12px 10px}
+	#section01 .tabcont_news .tabCont .first .subject{height:31px;}
+	#section01 .tabcont_news .tabCont .first .bo_cont{height:16px;}
+	#section01 .tabcont_news .tabCont > li{padding:5px 0}
+	#section01 .tabcont_news .tabCont > li .fl{width:75%;height:29px}
+	#section01 .tabcont_news .tabCont > li .fr{width:18%}
+	#section02 .ban_list01 li .t_box{padding:20px}
+	#section03 .sns_box_new .title_box{padding: 26px 10px 20px;}
+	#section03 .sns_box_new .sns_slide_wrap{padding:25px 10px;}
+
+	#section01 .t_deco .mt_search_wrap {width:100%;top:-40px;}
+	#section01 .t_deco .mt_search_wrap .qr_box .fl {width: 260px;height:32px;border: none;}
+
+	#section01 .sec01_t .mainVisual_wrap {height: 140px !important;}
+
+	#section01 .sec01_t .mayor_top .text_img {width: 38%;}
+	#section01 .sec01_t .mayor_top .img_box {background-position: 130px 12px}
+	#section01 .mayor_top .img_box .site_mayor {left: 40px;bottom: 40px;padding:5px 10px}
+
+	#section02 .sec02_n .info_ban_wrap .infoBanner .item {width: 278px !important;}
+
+	#section02 .sec02_n .info_ban_wrap {height: 397px;}
+
+	#section03 .banner_img_box .title_box_new::after {left: 240px;background-size: 70%;background-repeat: no-repeat;}
+
+	#section03 .sns_box_new .sns_link .sns_link_box1 li {width: 24%;}
+
+	/*서브*/
+	.joj-box{word-break:break-all;}
+	.joj-ssbox{width:41%}
+	.joj-box p{font-size:1em;}
+	.joj-sbox .cont1{font-size:1em;width:92%}
+	.joj-sbox ul li{background:none;padding-left:0;text-align:center}
+	.login_form_new .login_wrap{padding:50px 14px;}
+	.login_form_new .login_wrap .login_w_box{padding:14px}
+	.login_form_new .login_wrap .login_w_box ul li label{width:54px}
+
+	/*게시판*/
+	.card_news .owl-nav a{top:160px}
+	.bo_l_card ul > li > a > p.img_w{height:150px}
+
+	/*선거인명부조회*/
+	.question_vote .ulfl {padding: 0 10px;}
+}

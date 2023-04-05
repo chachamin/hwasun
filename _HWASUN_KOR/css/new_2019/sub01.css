@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/*Head_search*/
+#head_search_wrap {padding:19px 0 0 0; height:58px;}
+#head_search_wrap div {float:left;}
+h1 {float:left;}
+.search_wrap {margin:0 0 0 110px;}
+fieldset.search {background:URL(/_HWASUN_KOR/img/common/search_index_bg01.gif) 0 0 no-repeat; height:25px; width:432px; 
+					margin:3px 0 0 0; padding:3px 0 0 10px; text-align:left; }
+fieldset.search form {position:relative; }
+fieldset.search form label {display:none;}
+fieldset.search select {width:120px;font-family:Dotum; margin-top:2px; border:0; letter-spacing:-1px;}
+input.input_search { border:0; margin:1px 0 0 10px; width:100px;}
+/*input.btn_search {position:absolute; right:0px; top:-3px; background:URL(/_HWASUN_KOR/img/common/search_index_bg.gif) 0 0 no-repeat;}*/
+/* .btn_search{ width:60px; height:28px; position:absolute; right:0px; top:-3px; background:URL(/_HWASUN_KOR/img/common/search_btn01.gif) 0 0 no-repeat;} */
+.popular {position:relative; margin:4px 0 0 0; width:435px; }
+.popular p {float:left;}
+.popular ul {float:left;}
+.popular ul li {margin:2px 8px; margin:2px 8px; font-size:11px; } 
+.popular_control {position:absolute; right:0; top:0;}
+.userType {margin:0 0 0 62px;}
+
+
+/*menu*/
+#head_menu_wrap { width:940px; height:72px; padding:5px 0 0 40px; clear:both; position:relative; 
+                   background:URL(/_HWASUN_KOR/img/menu/menuBG_sub01.jpg) 0 0 no-repeat;  }
+
+/* Left 2depth */
+#left_menu_wrap { width:200px; float:left; overflow:hidden; margin:28px 0 0 0; letter-spacing:-0.25pt; }
+#left_menu_bg { background:URL(/_HWASUN_KOR/img/sub/sub01_left_bg_btm.gif) 0 bottom no-repeat; padding-bottom:22px;}
+#left_menu { background:URL(/_HWASUN_KOR/img/sub/sub01_left_bg.gif) 0 0 repeat-y; overflow:hidden; }
+ul#left_menu_top { width:172px; margin:0 auto; padding-top:10px; text-align:left; margin-left:17px;}
+ul#left_menu_top li { border-bottom:1px solid #DDDDDD;display:block; line-height:25px;  clear:both; width:162px; }
+ul#left_menu_top li h3 { height:28px; font-size:12px; font-weight:normal; background:URL(/_HWASUN_KOR/img/sub/sub_menuBG_show.gif) right 8px no-repeat; }
+ul#left_menu_top li h3 a {font-size:12px; color:#666666; font-weight:normal; display:block; padding:2px 0 0 10px; }
+ul#left_menu_top li h3 a.current { font-size:12px; font-weight:bold; color:#000000;  background:URL(/_HWASUN_KOR/img/sub/sub_menuBG_hide.gif) right 8px no-repeat; width:152px; display:block; padding-left:10px; }
+ul#left_menu_top li ul{margin:5px 0 20px 0;  display:inline; clear:both; }
+ul#left_menu_top li ul li {font-size:12px; padding-bottom: 4px; display:block; margin-left:10px; }
+ul#left_menu_top li ul li a:hover { font-weight:normal;  }
+ul#left_menu_top li ul li a.current  { font-weight:normal;  }
+
+/* contents */
+#contents_info_wrap { width:740px; clear:both; height:102px; background:URL(/_HWASUN_KOR/img/sub/subVisual01.jpg) 0 0 no-repeat; }
