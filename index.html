@@ -16,25 +16,50 @@
     <link rel="stylesheet" type="text/css" href="_HWASUN_KOR/css/new_2019/rspnsv.css" />
 
     <style>
-        .fe_main_wrap {width: 100%; min-height: 100vh; position: relative; padding:7% 10px;font-family:"Lato","Noto Sans KR", "AppleGothicNeoSD", "Apple SD 산돌고딕 Neo", "sans-serif";}
+        a:focus{outline:none !important;box-shadow: none;}
+        *:focus-visible{outline:2px solid block;}
+
+        .fe_main_wrap {width: 100%; min-height: 100vh; position: relative; padding:7% 10px;font-family:"Lato","Noto Sans KR", "AppleGothicNeoSD", "Apple SD 산돌고딕 Neo", "sans-serif";background: url("_HWASUN_KOR/img/new_2023/fe_intro/fe_intro_bg.jpg") no-repeat center / cover;}
+
+        .fe_main_wrap .ir_pm {display:block;overflow: hidden;font-size: 0;line-height: 0;text-indent: -9999px;}
 
         .fe_main_wrap .top_a {display: flex;justify-content: space-between;margin-bottom: 35px;}
 
         .fe_main_wrap .bottom_a .link_a {display: flex;justify-content: space-between;}
         .link_a .link_box {width: calc((100% / 3) - 20px);border-radius: 20px; box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.1);min-height:450px;text-align: center;padding-top: 100px;}
-        .link_a .link_box.box01 {background: linear-gradient(to right, #fefffe, #f0faeb);}
-        .link_a .link_box.box02 {background: #071943;}
-        .link_a .link_box.box03 {background: #d62647;}
+        .link_a .link_box > a {width: 100%; height: 100%; display: block;}
+        .link_a .link_box.box01 {background: linear-gradient(to right, #fefffe, #f0faeb);padding-top:70px;}
+        .link_a .link_box.box03 {padding-top: 120px;}
+        .link_a .link_box.box01 .tit {width: 100%; height: 200px; background: url(_HWASUN_KOR/img/new_2023/fe_intro/dolmen_fe23.png) no-repeat center;}
+        .link_a .link_box.box03 .tit .f18 {color:#fff;}
+        .link_a .link_box.box02 {background: url(_HWASUN_KOR/img/new_2023/fe_intro/box_deco2.png) no-repeat 110% -10% #071943;}
+        .link_a .link_box.box03 {background: url(_HWASUN_KOR/img/new_2023/fe_intro/box_deco3.png) no-repeat 100% 0 #d62647;}
         .link_a .tit p {font-size:2.5em;font-weight: 500;color: #fff;}
         .link_a .tit .color_bb {color: #54edff;font-weight: 500;}
         .link_a .tit .color_by {color: #fff557;font-weight: 500;}
         .link_a .link_box .mid_tit {color: #fff;margin: 50px 0;}
-        .link_a .link_box.box01 .mid_tit {color:#058a45;}
-        .link_a .link_box .btn_move a {width: 250px;height: 45px;line-height: 45px;background-color: #fff;border-radius: 10px;}
-        .link_a .link_box.box01 .btn_move a {color:#058a45;border: 1px solid #058a45;}
-        .link_a .link_box.box02 .btn_move a {color:#fff;background-color: rgba(255, 255, 255, .2);}
-        .link_a .link_box.box03 .btn_move a {color:#d62647;}
+        .link_a .link_box.box01 .mid_tit {color:#058a45;margin: 10px 0 40px 0;}
+        .link_a .link_box .btn_move {width: 250px;height: 45px;line-height: 45px;background-color: #fff;border-radius: 10px;font-weight: 500;margin: 0 auto;}
+        .link_a .link_box.box01 .btn_move {color:#058a45;border: 1px solid #058a45;}
+        .link_a .link_box.box02 .btn_move {color:#fff;background-color: rgba(255, 255, 255, .2);}
+        .link_a .link_box.box03 .btn_move {color:#d62647;}
+        .link_a .link_box .btn_move:hover {box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);}
 
+        @media (max-width: 1024px){
+            .fe_main_wrap .bottom_a .link_a {flex-wrap: wrap;}
+            .link_a .link_box {width: 100%; margin-bottom: 20px;min-height:400px;padding-top: 70px;}
+            .link_a .link_box.box01 {padding-top:35px;}
+            .link_a .link_box.box03 {padding-top: 85px;}
+        }
+
+        @media (max-width: 480px){
+            .fe_main_wrap .top_a {flex-wrap: wrap;justify-content: center;padding-top: 20px;margin-bottom:20px;}
+            .fe_main_wrap .top_a .logo_a {margin-bottom: 10px;}
+        }
+
+        @media (max-width: 320px){
+            .link_a .link_box.box01 .tit {background-size: 100%;}
+        }
 
     </style>
 
@@ -50,47 +75,53 @@
         <div class="inner">
             <div class="top_a">
                 <div class="logo_a">
-                    <a href="#" class="ir_pm">화순군청</a>
+                    <a href="#"><img src="_HWASUN_KOR/img/new_2023/fe_intro/intro_logo.png" alt="화순군 Hwasun-gun"></a>
                 </div>
                 <div class="slogan_a">
-                    <span class="ir_pm">화순을 새롭게! 군민을 행복하게!</span>
+                    <img src="_HWASUN_KOR/img/new_2023/fe_intro/intro_slogan.png" alt="화순을 새롭게! 군민을 행복하게!">
                 </div>
             </div>
             <div class="bottom_a">
                 <div class="link_a">
                     <div class="link_box box01">
-                        <div class="tit">
-                            <span class="ir_pm">봄꽃과 함께 떠나는 2023 화순 고인돌 축제</span>
-                        </div>
-                        <div class="mid_tit">
-                            <p class="f20">2023. 4. 21. (금) ~ 4. 30. (일)</p>
-                        </div>
-                        <div class="btn_move">
-                            <a href="#">화순군 축제포털 바로가기</a>
-                        </div>
+                        <a href="http://www.hwasun.go.kr/festival/contents.do?S=S11&M=070102000000" title="화순군 축제포털 바로가기" target="_blank">
+                            <div class="tit">
+                                <span class="ir_pm">봄꽃과 함께 떠나는 2023 화순 고인돌 축제</span>
+                            </div>
+                            <div class="mid_tit">
+                                <p class="f20">2023. 4. 21. (금) ~ 4. 30. (일)</p>
+                            </div>
+                            <div class="btn_move">
+                                화순군 축제포털 바로가기
+                            </div>
+                        </a>
                     </div>
                     <div class="link_box box02">
-                        <div class="tit">
-                            <p>화순군<br><span class="color_bb">대표 홈페이지</span></p>
-                        </div>
-                        <div class="mid_tit">
-                            <p class="f20">화순군 메인페이지로 이동합니다.</p>
-                        </div>
-                        <div class="btn_move">
-                            <a href="#">바로가기</a>
-                        </div>
+                        <a href="https://www.hwasun.go.kr/index.do?S=S01" title="화순군 대표홈페이지 바로가기" target="_self">
+                            <div class="tit">
+                                <p>화순군<br><span class="color_bb">대표 홈페이지</span></p>
+                            </div>
+                            <div class="mid_tit">
+                                <p class="f20">화순군 메인페이지로 이동합니다.</p>
+                            </div>
+                            <div class="btn_move">
+                                바로가기
+                            </div>
+                        </a>
                     </div>
                     <div class="link_box box03">
-                        <div class="tit">
-                            <span class="f18">화순사랑은 고향사랑 기부제로!</span><br>
-                            <p class="color_by">고향사랑기부제</p>
-                        </div>
-                        <div class="mid_tit">
-                            <p class="f20">더 큰 지역발전으로 보답하겠습니다.</p>
-                        </div>
-                        <div class="btn_move">
-                            <a href="#">화순군에 기부하기</a>
-                        </div>
+                        <a href="https://ilovegohyang.go.kr/donation/intro.html" title="고향사랑기부제 바로가기" target="_blank">
+                            <div class="tit">
+                                <span class="f18">화순사랑은 고향사랑 기부제로!</span><br>
+                                <p class="color_by">고향사랑기부제</p>
+                            </div>
+                            <div class="mid_tit">
+                                <p class="f20">더 큰 지역발전으로 보답하겠습니다.</p>
+                            </div>
+                            <div class="btn_move">
+                                화순군에 기부하기
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
